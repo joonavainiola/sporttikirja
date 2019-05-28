@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: linear-gradient(rgba(174, 91, 215, 0.95), rgba(174, 91, 215, 0.4)),
+    url(./images/sk-tausta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 90em;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.App h1, .App h2, .App h3 {
+  font-weight: 500;
+}
+
+.App .otsikko {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.9em;
+  margin-bottom: 0.7em;
+}
+
+.App > * {
+  flex: 1 1 auto;
+}
+
+.login {
+  font-family: "Indie Flower";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 25em;
+  margin: 2.5em auto 0 auto;
+}
+
+.login__text {
+  font-size: 1.3em;
+  margin: 1em 0 0.8em 0;
+}
+
+.login i {
+  font-size: 4em;
+}

@@ -1,0 +1,71 @@
+.button {
+    background-color: #a446d2;
+    color: white;
+    outline: none;
+    padding: 0.4em 2em;
+    margin: 0.5em 0.3em 0 0.3em;
+    border: none;
+    border-radius: 1em;
+    font-size: 0.9em;
+    font-weight: bold;
+    box-shadow: 0 1px 3px #404040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0 1px 5px #303030;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button--black {
+    background-color: #222;
+}
+
+.button--white {
+    background-color: white;
+    color: black;
+}
+
+.button--special {
+    background-color: white;
+    color: #ae5bd7;
+    padding: 0.6em 2em;
+    font-weight: 500;
+    font-size: 0.85em;
+    opacity: 1;
+    transition: padding 0.2s;
+}
+
+.button--special:hover {
+    padding: 0.6em 2.5em;
+}
+
+.button--round {
+    background-color: white;
+    color: #222;
+    border-radius: 50%;
+    padding: 0.7em 0.75em;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    opacity: 1;
+}
+
+.button--round:hover {
+    color: white;
+    background-color: #222;
+}
+
+.button:disabled {
+    background-color: #ccc;
+    color: #999;
+    border: 3px solid #999;
+}
